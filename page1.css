@@ -1,0 +1,111 @@
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding-top: 10px; 
+    width: 100%; 
+    padding: 10px 20px;
+}
+
+header img{
+    max-width: 300px;
+    min-width: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+header a {
+    color: black ;
+    font-weight: bold;
+    font-size: 4vw;
+
+}
+
+header a:hover {
+    color: red ;
+    font-size: 3vw;
+}
+
+
+
+body {
+    background-color: black;
+}
+
+iframe
+{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    align-items: flex-start;
+    max-width: 1200px;
+    justify-content: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+section .desc{
+    width: 60%;
+}
+
+section a{
+    opacity: 0.5;
+    font-size: 80%;
+    color: white;
+    padding-left: 10px;
+}
+
+section a:hover{
+   color: red;
+}
+
+
+
+.centre{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+li :first-child{
+        color: red;
+}
+
+li :last-child{
+    display: flex;
+    color: white;
+    align-items: flex-start;
+    justify-content: left;
+    padding-left: 20px;
+}
+
+
+
+
+video{
+    display: flex;
+    justify-content: center;
+    border: 5px solid white;
+    min-width: 100px;
+    width: auto;
+}
+
+@media (max-width:900px){
+    section{
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}

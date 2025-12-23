@@ -1,0 +1,70 @@
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding-top: 10px; 
+    width: 100%; 
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+header img{
+    max-width: 300px;
+    min-width: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+header a {
+    color: black ;
+    font-weight: bold;
+    font-size: 4vw;
+
+}
+
+header a:hover {
+    color: red ;
+    font-size: 3vw;
+}
+
+
+body {
+    background-color: black;
+}
+
+
+
+table img{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    min-width: 100px;
+}
+
+table{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border: 5px solid white;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 2px solid white; 
+    width: 33%;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+audio{
+    width: 100%;
+    min-width: 200px;
+    border-radius: 5px;
+}
+
