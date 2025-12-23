@@ -110,3 +110,12 @@ video{
     }
 }
 
+@media (max-width:800px){
+    section{
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
