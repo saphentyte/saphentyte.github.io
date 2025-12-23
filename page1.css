@@ -101,7 +101,7 @@ video{
     width: auto;
 }
 
-@media (max-width:800px){
+@media (max-width: 600px){
     section{
         flex-direction: column;
         justify-content: center;
