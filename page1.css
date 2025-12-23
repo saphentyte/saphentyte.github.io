@@ -101,11 +101,12 @@ video{
     width: auto;
 }
 
-@media (max-width: 600px){
+@media (max-width:900px){
     section{
         flex-direction: column;
         justify-content: center;
-        padding-left: 2%;
-        padding-right: 2%;
+        padding-left: 10%;
+        padding-right: 10%;
     }
 }
+
